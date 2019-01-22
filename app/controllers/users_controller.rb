@@ -10,7 +10,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(name: params[:name], password: params[:password])
+    @user = User.new(name: params[:name], url: params[:url])
     if @user.save
       render json: @user
     else
