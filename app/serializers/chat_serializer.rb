@@ -4,7 +4,7 @@ class ChatSerializer < ActiveModel::Serializer
   has_many :users, through: :user_chats
   has_many :messages
     class MessageSerializer < ActiveModel::Serializer
-      attributes :id, :content, :chat_id, :created_at
+      attributes :id, :content, :chat_id, :created_at, :user_id
       # belongs_to :chat
       # belongs_to :user, through: :chats
       belongs_to :chat
