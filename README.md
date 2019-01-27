@@ -22,10 +22,10 @@ We have seeded our API with 2 initial users, "jack" and "ian". You may choose to
 
 To view the API, you can visit:
 
-...http://localhost:3000/users - To view existing user's name, url, and chats
+ - http://localhost:3000/users - To view existing user's name, url, and chats
 
-...http://localhost:3000/chats - To view existing chats and their associated users and messages
+ - http://localhost:3000/chats - To view existing chats and their associated users and messages
 
-...http://localhost:3000/messages - To view existing messages and their associated users and messages
+ - http://localhost:3000/messages - To view existing messages and their associated users and messages
 
-... http://localhost:3000/user_chats - To view existing chats and which users are having conversations with each other.
+ - http://localhost:3000/user_chats - To view existing chats and which users are having conversations with each other.
